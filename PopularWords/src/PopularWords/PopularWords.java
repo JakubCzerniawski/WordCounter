@@ -47,8 +47,8 @@ public class PopularWords
 		   word = word.replaceAll("\\p{Punct}",""); //removing punctuation signs
 		   word = word.replaceAll("\\“",""); //removing “ signs non included in {Punct}
 		   word = word.replaceAll("\\‘",""); //removing ‘ signs non included in {Punct}
-		   word = word.replaceAll("\\”",""); //removing ‘ signs non included in {Punct}
-		   word = word.replaceAll("\\’",""); //removing ‘ signs non included in {Punct}
+		   word = word.replaceAll("\\”",""); //removing ” signs non included in {Punct}
+		   word = word.replaceAll("\\’",""); //removing ’ signs non included in {Punct}
 		   
 		   Integer count = mapOfCounts.get(word); //setting count to number of previous detections of selected word
 		   if (count != null)
